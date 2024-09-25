@@ -46,6 +46,9 @@ export const metadata: Metadata = {
     "@Ayushmandash",
     "Ayushmandash",
     "ayushman developer",
+    "SonuDash",
+    "@SonuDash",
+    "@bettercalldash",
   ],
   authors: [
     {
