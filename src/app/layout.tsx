@@ -58,18 +58,18 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: siteConfig.url,
+    // url: siteConfig.url,
     title: siteConfig.name,
     description: siteConfig.description,
-    images: [`${siteConfig.url}/og-image.png`],
+    // images: [`${siteConfig.url}/og-image.png`],
     siteName: siteConfig.name,
   },
   twitter: {
     card: "summary_large_image",
     title: siteConfig.name,
     description: siteConfig.description,
-    images: [`${siteConfig.url}/og-image.png`],
-    creator: "@Taquiimam14",
+    // images: [`${siteConfig.url}/og-image.png`],
+    creator: "@SonuDash",
   },
   icons: {
     icon: "/favicon.ico",
