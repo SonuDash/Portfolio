@@ -6,7 +6,7 @@ import { buttonVariants } from './ui/button';
 import HackerBtn from './HackerBtn';
 
 function DownLoadResumeBtn() {
-  const resumeLink = "https://docs.google.com/document/d/1k00qKd-ORpNmro99X2nUqcL_It7ajivcw1CLTXGM2_A/edit?usp=sharing"; //drive link for resume
+  const resumeLink = "https://drive.google.com/file/d/1qMOk5kv491F6A9QxXKNXKTTcrgdaWbki/view?usp=sharing"; //drive link for resume
 
   return (
     <div className="h-fit w-full mt-2 py-2 px-4">
