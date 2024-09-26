@@ -28,9 +28,9 @@ import FramerWrapper from "@/components/FramerWrapper";
 const skillPage = () => {
 
     const language = [
-        {alt:"html", img:html},
-        {alt:"css", img:css},
-        {alt:"js", img:js},
+        // {alt:"html", img:html},
+        // {alt:"css", img:css},
+        // {alt:"js", img:js},
         {alt:"ts", img:ts},
         {alt:"cplus", img:cplus},
         {alt:"python", img:python},
@@ -42,9 +42,9 @@ const skillPage = () => {
         {alt:"nextjs", img:nextjs},
         {alt:"django", img:django},
         {alt:"git", img:git},
-        {alt:"github", img:github},
-        {alt:"vscode", img:vscode},
-        {alt:"vim", img:vim},
+        // {alt:"github", img:github},
+        // {alt:"vscode", img:vscode},
+        // {alt:"vim", img:vim},
     ]
     const cloud_devops = [
       {alt:"aws", img:aws},
@@ -58,22 +58,24 @@ const skillPage = () => {
 
   return (
     // SKILLS PAGE
+    
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
+      <br />
       <Badge className=" gap-2">
         <Lightbulb className="h-5 w-5" />
         My Skills
       </Badge>
       <div className="flex flex-col gap-3">
-        <Heading>My Technical Experience/Skills.</Heading>
+        <Heading>My Technical Skills.</Heading>
         <FramerWrapper y={0} x={200} >
-
+          <br />
         <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
-          Currently i am a fresher and i have a solid understand of HTML5, CSS3, JS, TS and React, including
-          responsive design principles. I specialize in building web
-          applications and sites using Javascript, Typescript, React, Nextjs &
-          Node.
-          Apart from that I have expetise on xloud platffroms such as aws cloud and google cloud.
+          I am well adept in making websites using HTML, CSS, Node.JS, React and NextJS, 
+          my learnings in DSA adds on to the quality of the product deilvered. I am well adept in managing and monitoring
+          on cloud platforms like AWS and GCP. My experience in tools like Docker, Kubernetes, Ansible, Jenkins and other such DevOPs tools
+          equips me with the ability of infrastructure hosting and monitoring.
         </p>
+        <br /><br />
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.30} className="block">
         <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl">
@@ -83,14 +85,16 @@ const skillPage = () => {
         <SkillsFooter items={language} />
         </div>
         </FramerWrapper>
+        <br />
         <FramerWrapper  className="block" y={100} delay={0.32}>
         <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl">
-           Framework/Libraries and Version Control
+           Framework and Version Control
         </h1>
         <div className="w-full h-fit flex-row flex justify-between items-center">
         <SkillsFooter items={framework} />
         </div>
         </FramerWrapper>
+        <br />
         <FramerWrapper  className="block" y={100} delay={0.32}>
         <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl">
            Cloud Platforms and DevOps
