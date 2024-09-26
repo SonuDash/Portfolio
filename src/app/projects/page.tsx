@@ -8,11 +8,25 @@ const projectsPage = () => {
   // PROJECTS DATA
   const Projects = [
     {
+      title: "Find that Film",
+      description:
+      "An app that takes user input and uses LLM to predict the movie the user is trying to find",
+      tags: ["Flask", "MongoDB", "LLM", "AI"],
+      link: "https://github.com/SonuDash/FindThatFilm.git",
+    },
+    {
       title: "GCR-cleaner",
       description:
-        "A series of bash-scripts to cleanup the unused and old docker images in a Google Cloud Repository",
+      "A series of bash-scripts to cleanup the unused and old docker images in a Google Cloud Repository",
       tags: ["GCR", "Bash", "Docker", "Cloud"],
       link: "https://github.com/SonuDash/GCR-cleaner",
+    },
+    {
+      title: "Image-syncer",
+      description:
+      "A python code to fix the docker image mismatch between prod environment and pre-prod environment",
+      tags: ["Python", "Docker", "AWS Cloud"],
+      link: "https://github.com/SonuDash/Image-syncer",
     },
   ];
 
@@ -27,16 +41,13 @@ const projectsPage = () => {
         <Heading>My Projects</Heading>
         <FramerWrapper y={0} x={200}>
           <p className=" font-poppins text-lg w-full text-primary max-sm:text-base">
-            I love to Build Cool Projects. Here, you&#x27;ll find a curated
-            collection of my creative endeavors and technical projects. Each
-            piece represents a journey of innovation, problem-solving, and
-            continuous learning. Feel free to explore this showcase of my
-            passion and expertise in action.
+            Feel free to go through my projects and give it a star on GitHub.
           </p>
         </FramerWrapper>
       </div>
+      <br />
 
-      <div className=" w-full flex flex-row flex-wrap gap-3 max-lg:flex-col">
+      <div className=" w-full flex flex-row flex-wrap gap-4 max-lg:flex-col">
         {Projects.map((val, indx) => {
           return <ProjectCards key={indx} value={val} num={indx} />;
         })}
