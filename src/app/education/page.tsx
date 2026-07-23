@@ -16,28 +16,44 @@ const educationPage = () => {
         <Heading>Work Experience</Heading>
       </div>
 
-      {/* Unacademy */}
+      {/*KorrAI*/}
       <div className="w-full h-fit flex flex-col">
        <div className = "w-full h-fit flex">
         <FramerWrapper y={0} x={-100} delay={0.35} className="w-1/4 font-rubik flex items-center justify-evenly text-lg max-sm:text-base ">
-            Jul 2024 - Aug 2024
+            Oct 2025 - Present
           </FramerWrapper>
           <FramerWrapper y={0} x={100} delay={0.35} className="relative w-3/4 border-l-4 border-l-[#3c3c3c] p-4 gap-3 education_point ">
             <div className="text-2xl font-rubik max-sm:text-xl">
-              Intern, <br /> Unacademy | Bengaluru
+              BizOps, <br /> KorrAI | Bengaluru
             </div>
             <p className=" font-poppins text-base w-full text-primary  max-sm:text-xs">
                 <ul>
-                    <li>Contributed in the Unacademy Languages Team. </li>
-                    <li>Edited and moderated the figma content to be integrated in the frontend. </li>
-                    <li>Integrated the content from figma to frontend using retool.</li>
-                    <li>Exposures: Figma, Retool, Business development, Advanced System Design</li>
+                    
                 </ul>
             </p>
           </FramerWrapper>
         </div>
       </div>
-      {/* SIgneasy */}
+
+      {/* SkyServe */}
+      <div className="w-full h-fit flex flex-col">
+       <div className = "w-full h-fit flex">
+        <FramerWrapper y={0} x={-100} delay={0.35} className="w-1/4 font-rubik flex items-center justify-evenly text-lg max-sm:text-base ">
+            Oct 2024 - Oct 2025
+          </FramerWrapper>
+          <FramerWrapper y={0} x={100} delay={0.35} className="relative w-3/4 border-l-4 border-l-[#3c3c3c] p-4 gap-3 education_point ">
+            <div className="text-2xl font-rubik max-sm:text-xl">
+              BizDev, <br /> SkyServe | Bengaluru
+            </div>
+            <p className=" font-poppins text-base w-full text-primary  max-sm:text-xs">
+                <ul>
+                    
+                </ul>
+            </p>
+          </FramerWrapper>
+        </div>
+      </div>
+      {/* Signeasy */}
       <div className="w-full h-fit flex flex-col">
        <div className = "w-full h-fit flex">
         <FramerWrapper y={0} x={-100} delay={0.35} className="w-1/4 font-rubik flex items-center justify-evenly text-lg max-sm:text-base ">
